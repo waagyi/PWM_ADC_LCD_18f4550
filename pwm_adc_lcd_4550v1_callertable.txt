@@ -1,0 +1,27 @@
+main
+	Div_32x32_U
+	Mul_32x32_U
+	PWM1_Init
+	GlobalInipwm_adc_lcd_4550v1
+	LongToStr
+		Div_32x32_S
+			COMFREM
+			SDIV3232L
+	PWM1_Change_Duty
+		Mul_16x16_S
+	Adc_Read
+		Delay_22us
+	Lcd_Out
+		Lcd_Cmd
+			Delay_50us
+			Delay_5500us
+			Delay_1us
+	Lcd_Cmd
+		Delay_50us
+		Delay_5500us
+		Delay_1us
+	Lcd_Init
+		Delay_50us
+		Delay_1us
+		Delay_5500us
+	PWM1_Start

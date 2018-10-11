@@ -1,0 +1,34 @@
+[DeviceName]
+Value=P18F4550
+[DeviceClock]
+Value=8
+[MainUnit]
+Value=
+[DeviceFlags]
+Count=6
+Value0=_FOSC_INTOSC_HS_1H = $00FB
+Value1=_FOSC_HS_1H = $00FC
+Value2=_FOSC_HSPLL_HS_1H = $00FE
+Value3=_WDT_OFF_2H = $00FE
+Value4=_LVP_OFF_4L = $00FB
+Value5=_XINST_OFF_4L = $00BF
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=pwm_adc_lcd_4550v1.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=3
+Value0=C:\Program Files\Mikroelektronika\mikroC\Defs\
+Value1=C:\Program Files\Mikroelektronika\mikroC\Uses\p18\
+Value2=D:\MICROCONTROLLER CODINGS\mikroc\
+[IncludePath]
+Count=0
